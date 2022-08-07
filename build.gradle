@@ -1,0 +1,3 @@
+pludins {
+    id 'java-library'
+}
