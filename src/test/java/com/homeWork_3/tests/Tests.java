@@ -38,7 +38,7 @@ public class Tests {
         $(".react-datepicker__day--029").click();
         $("#subjectsInput").setValue("Maths").pressEnter();
         $("[for='hobbies-checkbox-1']").click();
-        $("#uploadPicture").uploadFile(new File("src/test/Resources/1234.jpg"));
+        $("#uploadPicture").uploadFile(new File("src/test/resources/1234.jpg"));
         $("#currentAddress").setValue("Samara, Lenina 3");
 
         $("#state").shouldBe(visible).scrollTo().click();
