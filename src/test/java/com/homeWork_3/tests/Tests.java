@@ -47,16 +47,5 @@ public class Tests {
         $(".modal-body").shouldHave(text("Dinar Gizzyatov"), text("dinar@yahoo.com"),
             text("Male"),text("1234567890"), text("29 October,1990"), text("Maths"),
             text("Sports"), text("1234.jpg"), text("Samara, Lenina 3"), text("Uttar Pradesh Lucknow"));
-//        $(".modal-body").shouldHave();
-//        $(".modal-body").shouldHave(text("Male"));
-//        $(".modal-body").shouldHave(text("1234567890"));
-//        $(".modal-body").shouldHave(text("29 October,1990"));
-//        $(".modal-body").shouldHave(text("Maths"));
-//        $(".modal-body").shouldHave(text("Sports"));
-//        $(".modal-body").shouldHave(text("1234.jpg"));
-//        $(".modal-body").shouldHave(text("Samara, Lenina 3"));
-//        $(".modal-body").shouldHave(text("Uttar Pradesh Lucknow"));
     }
-
-
 }
